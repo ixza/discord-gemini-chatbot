@@ -1,0 +1,42 @@
+{
+    "GEMINI_API_KEY":"insert gemini api key here",
+    "DISCORD_BOT_TOKEN":"insert discord api key here",
+    "DISCORD_BOT_ID":"insert bot id here",
+    "INSTRUCTION":"***",
+    "COMMAND_PREFIX":"/",
+    "MAX_LENGTH_RESPONSE":2000,
+    "SAFETY_SETTINGS": [
+        {
+            "category": "HARM_CATEGORY_SEXUAL",
+            "threshold": "BLOCK_NONE"
+        },
+        {
+            "category": "HARM_CATEGORY_DANGEROUS",
+            "threshold": "BLOCK_NONE"
+        },
+        {
+            "category": "HARM_CATEGORY_HARASSMENT",
+            "threshold": "BLOCK_NONE"
+        },
+        {
+            "category": "HARM_CATEGORY_HATE_SPEECH",
+            "threshold": "BLOCK_NONE"
+        },
+        {
+            "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+            "threshold": "BLOCK_NONE"
+        },
+        {
+            "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+            "threshold": "BLOCK_NONE"
+        }
+    ],
+    "GERNERATION_CONFIG":{
+        "candidate_count":1,
+        "temperature": 1.0
+    },
+    "CHAT_CONFIG":{
+        "candidate_count":1,
+        "temperature": 1.0
+    }
+}
